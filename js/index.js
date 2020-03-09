@@ -40,3 +40,11 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const idSource = document.getElementById('cta-img');
+idSource.setAttribute('src', 'img/header-img.png');
+
+const idSourceMid = document.getElementById('middle-img');
+idSourceMid.setAttribute('src', 'img/mid-page-accent.jpg');
+
+
