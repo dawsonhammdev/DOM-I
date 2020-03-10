@@ -87,8 +87,32 @@ contact2[2].textContent = siteContent["contact"]["email"];
 
 
 
+
+
 let footer1 = document.querySelector('footer');
 footer1.textContent = siteContent["footer"]["copyright"];
+
+
+//Adding new features
+
+const colorChange = document.querySelectorAll('nav a');
+for ( let i = 0; i < colorChange.length; i++) {
+  colorChange[i].style.color ='green';
+}
+
+const navigation = document.querySelector('a');
+
+const newNav = document.createElement('nav');
+newNav.textContent = "Blog"
+navigation.append(newNav);
+
+const newNav1 = document.createElement('nav');
+newNav1.textContent = "Hello"
+navigation.append(newNav1);
+
+
+
+
 
 
 
